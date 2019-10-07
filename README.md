@@ -22,22 +22,19 @@
 - 绿意：[前端硬核面试专题之 CSS 55 问](https://mp.weixin.qq.com/s/SVKMsQtOLNqYXeT_f95FUw)
 - 红绯：[日常 | 我用什么工具写作？](https://mp.weixin.qq.com/s/DrvJBEWqH14atF_4O1IXFw)
 - Wechat-Format：[Markdown Nice新特性：阿里云图床](https://mp.weixin.qq.com/s/QPsOUkLCsvhqSicTOGaHJg)
+- 科技蓝：[2019 前端秋季社招面试经历总结（二年多经验）](https://mp.weixin.qq.com/s/eDIDOESem_s93liccYK-qw)
 
 > 欢迎提供更多文章示例~~
 
-## TODO
+## 开发文档
 
-- 浏览器插件
-- 本地工具
-- Markdown 中文指北纠正器
-- 七牛云域名配置文档
-- 官网
+开发文档请参考本项目的[wiki](https://github.com/zhning12/markdown-nice/wiki/%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3)
 
 ## 关于
 
-目前 mdnice 已经有了一定量的用户，故而组建了**微信群**，欢迎加入反馈意见，如果二维码失效，欢迎搜索公众号**牧码啦**联系我拉你入群。
+目前 mdnice 已经有了一定量的用户，故而组建了**微信群**，欢迎反馈意见和公众号大佬们一起交流，扫一扫二维码拉你入群。
 
-<img width="250px" src="https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/mdnice%E7%94%A8%E6%88%B7%E7%BE%A4.jpg"/>
+<img width="250px" src="https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E7%89%A7%E7%A0%81%E5%95%A6%E5%B0%8F%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81_20190929092055.JPG"/>
 
 
 欢迎打赏哟，您的支持是我最大的动力！

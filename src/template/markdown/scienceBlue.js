@@ -1,4 +1,6 @@
-export default `/* 全局属性
+export default `/*自定义样式，实时生效*/
+
+/* 全局属性
  * 页边距 padding:30px;
  * 全文字体 font-family:ptima-Regular;
  * 英文换行 word-break:break-all;
@@ -22,22 +24,25 @@ p {
   margin:10px 10px;
   line-height:1.75;
   letter-spacing:0.2em;
-  font-size:14px;
+  font-size: 15px;
   word-spacing:0.1em;
 }
 
 /* 一级标题 */
 h1 {
-  border-bottom:2px solid rgb(248,57,41);
-  font-size:1.3em;
+  border-bottom: 2px solid #0e88eb;
+  font-size: 1.4em;
+  text-align: center;
 }
 
 /* 一级标题内容 */
 h1 span {
+  font-size: 1.4em;
   display:inline-block;
-  font-weight:normal;
-  background:rgb(248,57,41);
+  font-weight: bold;
+  //background: #0e88eb;
   color:#ffffff;
+  color: #0e88eb;
   padding:3px 10px 1px;
   border-top-right-radius:3px;
   border-top-left-radius:3px;
@@ -57,11 +62,12 @@ h2 {
 /* 二级标题内容 */
 h2 span {
   font-family:STHeitiSC-Light;
-  font-size:18px;
+  font-size: 22px;
+  color:#0e88eb;
   font-weight:bolder;
   display:inline-block;
   padding-left:10px;
-  border-left:5px solid rgb(248,57,41);
+  border-left:5px solid #0e88eb;
 }
 
 /* 二级标题修饰 请参考有实例的主题 */
@@ -70,12 +76,14 @@ h2:after {
 
 /* 三级标题 */
 h3 {
+	font-size: 18px;
+ 	color: #0e88eb;
 }
 
 /* 三级标题内容 */
 h3 span {
-  font-size:14px;
-  color:rgb(165,213,93);
+  font-size: 18px;
+  color: #0e88eb;
 }
 
 /* 三级标题修饰 请参考有实例的主题 */
@@ -84,7 +92,7 @@ h3:after {
 
 /* 列表内容 */
 li {
-  font-size:13px;
+  font-size: 15px;
 }
 
 /* 引用
@@ -98,14 +106,14 @@ blockquote {
   position:relative;
   line-height:1.8;
   border-radius:0px 0px 10px 10px;
-  color:#FEEEED;
-  background:#000;
+  color: #0e88eb;
+  background:#fff;
   box-shadow:#84A1A8 0px 10px 15px;
 }
 blockquote:before {
-  content:" ";
+  content:"★ ";
   display:inline;
-  color:#FFF;
+  color: #0e88eb;
   font-size:4em;
   font-family:Arial,serif;
   line-height:1em;
@@ -114,15 +122,15 @@ blockquote:before {
 
 /* 引用文字 */
 blockquote p {
-  color:#FEEEED;
-  font-size:13px;
+  color: #0e88eb;
+  font-size:15px;
   display:inline;
 }
 blockquote:after {
   content:"”";
   float:right;
   display:inline;
-  color:#FFF;
+  color:#0e88eb;
   font-size:3em;
   line-height:1em;
   font-weight:500;
@@ -130,26 +138,26 @@ blockquote:after {
 
 /* 链接 */
 a {
-  color:rgb(248,57,41);
-  border-bottom: 1px solid #ff3502;
+  color: #0e88eb;
+  border-bottom: 0px solid #ff3502;
   font-family:STHeitiSC-Light;
 }
 
 /* 加粗 */
 strong {
-  font-weight:border;
-  color:rgb(248,57,41);
+  font-weight: border;
+  color: #0e88eb;
 }
 
 /* 斜体 */
 em {
-  color:rgb(248,57,41);
+  color: #0e88eb;
   letter-spacing:0.3em;
 }
 
 /* 加粗斜体 */
 strong em {
-  color:rgb(248,57,41);
+  color: #0e88eb;
   letter-spacing:0.3em;
 }
 
@@ -167,7 +175,7 @@ hr {
   border:none;
   border-top:medium solidid #333;
   text-align:center;
-  background-image:linear-gradient(to right,rgba(248,57,41,0),rgba(248,57,41,0.75),rgba(248,57,41,0));
+  background-image:linear-gradient(to right,rgba(248,57,41,0),#0e88eb,rgba(248,57,41,0));
 }
 
 /* 图片
@@ -194,7 +202,43 @@ figcaption {
 
 /* 行内代码 */
 p code,li code {
-  color:rgb(271,93,108);
+  color:/*自定义样式，实时生效*/
+
+
+
+/* 非微信代码块
+ * 代码块不换行 display:-webkit-box !important;
+ * 代码块换行 display:block;
+ */
+pre code {
+}
+
+/*
+ * 表格内的单元格
+ * 字体大小 font-size: 16px;
+ * 边框 border: 1px solid #ccc;
+ * 内边距 padding: 5px 10px;
+ */
+table tr th,
+table tr td {
+  font-size: 15px;
+}
+
+/* 脚注文字 */
+.footnote-word {
+  color: #2d59b3;
+}
+
+/* 脚注上标 */
+.footnote-ref {
+  color: #6a88c5;
+}
+
+/*脚注链接样式*/
+.footnote-item em {
+  color: #0e88eb;
+  font-size:12px;
+};
 }
 
 /* 非微信代码块
@@ -212,37 +256,21 @@ pre code {
  */
 table tr th,
 table tr td {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* 脚注文字 */
 .footnote-word {
-  color:rgb(248,57,41);
+  color: #0e88eb;
 }
 
 /* 脚注上标 */
 .footnote-ref {
-  color:rgb(248,57,41);
+  color: #0e88eb;
 }
 
 /*脚注链接样式*/
 .footnote-item em {
-  color:#6E1E51;
+  color: #082a71;
   font-size:12px;
-}
-
-/* "参考资料"四个字 */
-.footnotes-sep {
-}
-
-/* 参考资料编号 */
-.footnote-num {
-}
-
-/* 参考资料文字 */
-.footnote-item p { 
-}
-
-/* 参考资料解释 */
-.footnote-item p em {
 }`;

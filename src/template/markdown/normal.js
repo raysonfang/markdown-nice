@@ -1,5 +1,4 @@
-export default 
-`/* 全局属性
+export default `/* 全局属性
  * 页边距 padding: 30px;
  * 全文字体 font-family: ptima-Regular;
  * 英文换行 word-break: break-all;
@@ -74,7 +73,6 @@ blockquote p {
 
 /* 链接 */
 a {
-  border-bottom: 1px solid #1e6bb8;
 }
 
 /* 加粗 */
@@ -155,4 +153,4 @@ table tr td {
 
 /* 参考资料解释 */
 .footnote-item p em {
-}`
+}`;
